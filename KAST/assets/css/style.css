@@ -200,12 +200,12 @@ h6 {
 --------------------------------------------------------------*/
 
 .buy-tickets {
-    color: rgb(0, 0, 0);
-    background: #ffffff;
-    padding: 7px 22px;
-    margin: 0 0 0 15px;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    padding: 7px 20px;
+    margin: 0 0 0 100px;
     border-radius: 50px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     transition: all ease-in-out 0.3s;
     font-weight: 500;
     line-height: 1;
@@ -215,11 +215,11 @@ h6 {
 
 .buy-tickets:hover {
     background: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .buy-tickets:focus {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 1000px) {
@@ -495,7 +495,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/hero-bg.jpg) top center;
+    background: url(/KAST/assets/img/10.JPG) top center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -509,7 +509,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(6, 12, 34, 0.8);
+    background: rgba(0, 0, 0, 0);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -556,7 +556,7 @@ h6 {
 }
 
 #hero p {
-    color: #000000;
+    color: #ffffff;
     font-weight: 700;
     font-size: 20px;
 }
@@ -652,7 +652,7 @@ h6 {
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #f82249;
+    border: 2px solid #000000;
 }
 
 #hero .about-btn:hover {
@@ -1191,7 +1191,7 @@ h6 {
 
 #subscribe {
     padding: 60px;
-    background: url(../img/subscribe-bg.jpg) center center no-repeat;
+    background: url(/KAST/assets/img/10.JPG) center center no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -1239,7 +1239,7 @@ h6 {
     border: 0;
     padding: 9px 25px;
     cursor: pointer;
-    background: #f82249;
+    background: #000000;
     color: #fff;
     transition: all 0.3s ease;
     outline: none;
@@ -1248,7 +1248,7 @@ h6 {
 }
 
 #subscribe button:hover {
-    background: #e0072f;
+    background: #000000;
 }
 
 @media (max-width: 460px) {
@@ -1270,11 +1270,11 @@ h6 {
     border: none;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 #buy-tickets .card:hover {
-    box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+    box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.2);
 }
 
 #buy-tickets .card hr {
