@@ -200,12 +200,12 @@ h6 {
 --------------------------------------------------------------*/
 
 .buy-tickets {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: #000000;
     padding: 7px 20px;
     margin: 0 0 0 100px;
     border-radius: 50px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     transition: all ease-in-out 0.3s;
     font-weight: 500;
     line-height: 1;
