@@ -149,8 +149,8 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-    height: 90px;
-    position: fixed;
+    height: 60px;
+    position: static;
     left: 0;
     top: 0;
     right: 0;
@@ -166,7 +166,7 @@ h6 {
 
 #header #logo h1 {
     font-size: 36px;
-    margin: 0;
+    margin: 20px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
@@ -201,7 +201,7 @@ h6 {
 
 .buy-tickets {
     color: rgb(0, 0, 0);
-    background: #000000;
+    background: #ffffff;
     padding: 7px 22px;
     margin: 0 0 0 15px;
     border-radius: 50px;
@@ -215,16 +215,16 @@ h6 {
 
 .buy-tickets:hover {
     background: none;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
 }
 
 .buy-tickets:focus {
-    color: rgb(7, 7, 7);
+    color: rgb(0, 0, 0);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
     .buy-tickets {
-        margin: 0 15px 0 0;
+        margin: 0 30px 0 0;
     }
 }
 
@@ -239,7 +239,7 @@ h6 {
 */
 
 .navbar {
-    padding: 0;
+    padding: 200px;
 }
 
 .navbar ul {
