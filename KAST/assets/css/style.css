@@ -967,7 +967,6 @@ h6 {
 }
 
 #venue .venue-info {
-    background: url("../img/venue-info-bg.jpg") top center no-repeat;
     background-size: cover;
     position: relative;
     padding-top: 60px;
@@ -976,7 +975,7 @@ h6 {
 
 #venue .venue-info:before {
     content: "";
-    background: rgba(13, 20, 41, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
