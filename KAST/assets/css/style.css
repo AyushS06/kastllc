@@ -201,6 +201,7 @@ h6 {
 
 .buy-tickets {
     color: rgb(255, 255, 255);
+    align-items: center;
     background: #000000;
     padding: 7px 20px;
     margin: 0 0 0 100px;
@@ -214,6 +215,7 @@ h6 {
 }
 
 .buy-tickets:hover {
+    align-items: center;
     background: none;
     color: rgb(0, 0, 0);
 }
