@@ -1008,8 +1008,8 @@ h6 {
 
 #venue .venue-gallery {
     overflow: hidden;
-    border-right: 3px solid #fff;
-    border-bottom: 3px solid #fff;
+    border-right: 0px solid rgb(0, 0, 0);
+    border-bottom: 0px solid rgb(0, 0, 0);
 }
 
 #venue .venue-gallery img {
