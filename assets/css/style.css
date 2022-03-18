@@ -710,13 +710,15 @@ h6 {
 
 #about h2 {
     font-size: 36px;
+    text-align: center;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     color: #fff;
 }
 
 #about p {
     font-size: 14px;
+    text-align: center;
     margin-bottom: 10px;
     color: #fff;
 }
@@ -956,20 +958,24 @@ h6 {
 
 #venue {
     padding: 60px 0;
+    text-align: center;
 }
 
 #venue .container-fluid {
     margin-bottom: 3px;
+    text-align: center;
 }
 
 #venue .venue-map iframe {
     width: 100%;
     height: 100%;
+    text-align: center;
     min-height: 300px;
 }
 
 #venue .venue-info {
     background-size: cover;
+    text-align: center;
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -977,6 +983,7 @@ h6 {
 
 #venue .venue-info:before {
     content: "";
+    text-align: center;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0;
@@ -988,7 +995,8 @@ h6 {
 #venue .venue-info h3 {
     font-size: 36px;
     font-weight: 700;
-    color: #fff;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 574px) {
